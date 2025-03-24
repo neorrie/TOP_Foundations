@@ -1,6 +1,6 @@
 #container {
   width: 30vw;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1;
   display: flex;
   flex-wrap: wrap;
   border-style: solid;
