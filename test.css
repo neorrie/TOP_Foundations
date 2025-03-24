@@ -1,0 +1,29 @@
+:root {
+  --sides: 16;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#container {
+  width: 30vw;
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-color: black;
+}
+.box {
+  flex: 0 0 calc(100% / var(--sides));
+  aspect-ratio: 1/1;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
